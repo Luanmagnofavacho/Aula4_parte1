@@ -7,7 +7,6 @@ int main() {
     int acumulador = 0;    // ACUMULA um valor
     int valor;
 
-    // Vamos contar 3 números pares
     for (int i = 0; i < 3; i++) {
         printf("Digite um valor par: ");
         scanf("%d", &valor);
@@ -34,7 +33,6 @@ int main() {
     printf("Digite N: ");
     scanf("%d", &N);
 
-    // CONTADOR = i, que vai de 1 até N
     for (int i = 1; i <= N; i++) {
         soma += i; // acumulador guarda a soma
         // Para anotar: se N=5
@@ -66,7 +64,6 @@ int main() {
         contador++;
     }
 
-    // expressão da média
     float media = soma / contador;
 
     printf("Soma: %.2f\n", soma);
